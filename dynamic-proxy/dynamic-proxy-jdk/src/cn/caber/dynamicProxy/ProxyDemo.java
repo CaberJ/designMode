@@ -5,6 +5,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 public class ProxyDemo implements InvocationHandler {
+    //代理类
     private Object obj;
 
     public Object getInstance(Object mrJ) {
