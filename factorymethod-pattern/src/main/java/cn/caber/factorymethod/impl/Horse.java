@@ -3,7 +3,7 @@ package cn.caber.factorymethod.impl;
 import cn.caber.factorymethod.Animal;
 
 /**
- * @Description:
+ * @Description: 具体产品
  * @Author: zhaikaibo
  * @Date: 2019/12/26 16:26
  */

@@ -4,7 +4,7 @@ import cn.caber.factorymethod.Animal;
 import cn.caber.factorymethod.AnimalFactory;
 
 /**
- * @Description:
+ * @Description:具体工厂
  * @Author: zhaikaibo
  * @Date: 2019/12/26 16:27
  */

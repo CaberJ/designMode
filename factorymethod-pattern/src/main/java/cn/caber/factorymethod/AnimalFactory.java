@@ -1,7 +1,7 @@
 package cn.caber.factorymethod;
 
 /**
- * @Description:
+ * @Description: 抽象工厂
  * @Author: zhaikaibo
  * @Date: 2019/12/26 16:21
  */
