@@ -18,6 +18,5 @@ public class StrategyContext {
 
     public Output executeStrategy(Input input){
         return strategy.operate(input);
-
     }
 }

@@ -7,5 +7,28 @@ package cn.caber.statePattern;
  */
 public interface State {
 
-    public void doAction(Context context);
+    /**
+     * 投币
+     * @param candyMachine
+     */
+    String insertCoin(CandyMachine candyMachine);
+
+    /**
+     * 转动曲轴
+     * @param candyMachine
+     */
+    String crank (CandyMachine candyMachine);
+
+    /**
+     * 分发糖果
+     * @param candyMachine
+     */
+    String dispenseCandy(CandyMachine candyMachine);
+
+    /**
+     * 退币
+     * @param candyMachine
+     */
+    String returnCoin(CandyMachine candyMachine);
+
 }
